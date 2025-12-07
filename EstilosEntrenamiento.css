@@ -6,6 +6,44 @@ body{
     height: 400px;
 
 }
+h1{
+    color: rgb(255, 250, 250);
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    text-decoration:underline 2px solid;
+    background-color: black;
+    margin: 0;
+    
+}
+ol{
+    margin-top: 0%;
+    width: 100%;
+    padding: 0;
+    margin: 0%;
+    font-size: 0;
+}
+li{
+    box-sizing: border-box;
+    background-color:black;
+    display: inline-block;
+    width:32.3%;
+    font-size: 16px;
+    text-align: center;
+    color: orange;
+    padding: 1% 0;
+    border-right: solid 1px black;
+    font-weight: bolder;
+}
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+
+a:hover {
+  text-decoration: underline; 
+}
 table{
     width: 80%;
     margin: 0 auto;

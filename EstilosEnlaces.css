@@ -1,18 +1,5 @@
-html, body{
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-}
 body{
     background-image: url(fitness-park-9.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0%;
-    padding: 0%;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 h1{
     color: rgb(255, 250, 250);
@@ -23,6 +10,10 @@ h1{
     background-color: black;
     margin: 0;
     
+}
+h2{
+  color: orange;
+  margin-top: 100px;
 }
 ol{
     margin-top: 0%;
@@ -52,26 +43,26 @@ a {
 a:hover {
   text-decoration: underline; 
 }
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: black;
-    z-index: 9999;
-    padding: 10px 0;
+article {
+display: inline-block;
+width:50%;
+vertical-align: top;
+text-align: center;
+}
+
+section {
     text-align: center;
-}
-main{
-     font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: auto;
+    vertical-align: top;
 }
 
-
-p{
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white ;
+section img {
+    width: 80%;          
+     
+}
+img:hover{
+    border: 2px solid orange;         /*Borde al pasar por encima de la imagen*/
+}
+o{
+  color: orange;
 }
