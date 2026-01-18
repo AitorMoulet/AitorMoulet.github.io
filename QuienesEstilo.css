@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+h1{
+    color: orange;
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    text-decoration:underline 2px solid;
+    background-color: black;
+    margin: 0;
+    
+}
+img{
+    height: 300px;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+p{
+    color: orange;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    
+}
+nav{
+    width: 100%;
+    padding: 0;
+
+}
+li{
+    background-color: black;
+    color: orange;
+    width: 16%;
+    display: inline-block;
+}
