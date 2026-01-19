@@ -42,8 +42,8 @@ li{
     padding: 1% 0;
     border: 1px solid orange;
     border-radius: 20px;
-    max-width: 600px;
-    width: 48%;
+    max-width: 500px;
+    width: 46%;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);;
 }
