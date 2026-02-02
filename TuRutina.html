@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description"content="Creamos tu rutina siguiendo tus preferencias e indicaciones">
+    <meta name="lenguage" content="español">
+    <meta name="copiright" content=" Aitor Moulet">
+    <meta name="author" content="Aitor Moulet"> 
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="EstilosTurutina.css">
+    <link rel="canonical" href="https://aitormoulet.github.io">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="subject"content="Entrenamiento personal">
+    <title>Tu rutina</title>
+</head>
+<header>
+    <h1>PotenciaFit</h1>
+    
+    </header>
+<body>
+    <h2>Registro Usuario</h2>
+    <h3>Envia y en breves tendras tu rutina personalizada</h3>
+
+    <form action="#"method="post" enctype="application/x-www-form-urlencoded" novalidate autocomplete="off">
+        <fieldset>
+            
+            <label for="nombre"> Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder=" Nombre" required>
+            <label for="Apellidos"> Apellidos:</label>
+            <input type="text" id="nombre" name="Apellidos" placeholder="Apellidos" required>
+            <label for="nacimiento">edad</label> <!--label/imput elementos de linea-->
+            <input type="date" name="nacimiento" id="nacimiento">
+            <label for="altura">Altura (cm)</label>
+            <input type="number" id="altura" name="altura" placeholder="Ej: 180" step="1">
+            <label for="Peso">Peso </label>
+            <input type="number" name="Peso" id="Peso" min="40" max="200" step="1" placeholder="Peso"> 
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="608765382">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" placeholder="Preferencias" cols="45" row="6"> </textarea>
+            <a href=""><button type="submit" class="btn-submit">Enviar</button></a>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
