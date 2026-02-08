@@ -13,29 +13,59 @@ h1{
     margin: 0;
     
 }
-img{
-    width: 400px;
-    height: 300px;
-    margin-left: 480px;
+h1>img{
+    width: 50px;
+    right: 100px;
+}
+main{
     margin-top: 100px;
-    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 15%;
+    
+    
+}
+section{
+    width: 80%;
+    text-align: center;
+    
+}
+article{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 p{
-    color: orange;
+    color: white;
     width: 80%;
     text-align: center;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;;
+    
     
 }
-nav{
-    width: 100%;
-    padding: 0;
-
+ol{
+  padding: 0;
+    font-size: 0;
+    
 }
 li{
-    background-color: black;
-    color: orange;
-    width: 16%;
+     font-size: 16px;
     display: inline-block;
+    width: 16.3%;
+    color: orange;
+    text-align: center;
+    padding: 10px 0;
+    border:2px solid orange ;
+    margin: auto;
+   
+}
+li:hover{
+    background-color: orange;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: orange;
+  
+}
+a:hover{
+    color: white;
 }

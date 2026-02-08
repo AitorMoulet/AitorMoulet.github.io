@@ -1,6 +1,6 @@
 body{
    background-image: url(fitness-park-9.webp);
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
     height: 400px;
@@ -17,32 +17,32 @@ h1{
     
 }
 ol{
-    margin-top: 0%;
-    width: 100%;
-    padding: 0;
-    margin: 0%;
+  padding: 0;
     font-size: 0;
+    
 }
 li{
-    box-sizing: border-box;
-    background-color:black;
-    display: inline-block;
-    width:32.3%;
     font-size: 16px;
-    text-align: center;
+    display: inline-block;
+    width: 16.3%;
     color: orange;
-    padding: 1% 0;
-    border-right: solid 1px black;
-    font-weight: bolder;
+    text-align: center;
+    padding: 10px 0;
+    border:2px solid orange ;
+    margin: auto;
+   
 }
-a {
-  color: inherit; 
-  text-decoration: none; 
+a{
+    text-decoration: none;
+    color: orange;
+    margin-top: 20%;
 }
-
-
-a:hover {
-  text-decoration: underline; 
+li:hover{
+    background-color: orange;
+    color: white;
+}
+a:hover{
+    color: white;
 }
 table{
     width: 80%;
@@ -89,6 +89,9 @@ article{
     color: white;
     margin-top: 50px;
     background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
 }
 h2{
     color: orange;

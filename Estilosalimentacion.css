@@ -1,0 +1,84 @@
+body{
+    background-image: url(fitness-park-9.webp);
+    padding: 0;
+    margin: 0;
+    width: 100%s;
+}
+h1{
+    color: orange;
+    text-align: center;
+    font-family: serif;
+    font-size: 25px;
+    text-decoration:underline 2px solid;
+    background-color: black;
+    margin: 0;
+    
+}
+h2{
+  color: orange;
+  text-align: center;
+  margin-top: 100px;
+}
+nav{
+    width: 100%;
+    padding: 0;
+     margin: 0;
+
+}
+ol{
+  padding: 0;
+    font-size: 0;
+    
+}
+li{
+    font-size: 16px;
+    display: inline-block;
+    width: 16.3%;
+    color: orange;
+    text-align: center;
+    padding: 10px 0;
+    border:2px solid orange ;
+    margin: auto;
+   
+}
+a{
+    text-decoration: none;
+    color: orange;
+    margin-top: 20%;
+}
+li:hover{
+    background-color: orange;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+.nutrition {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
