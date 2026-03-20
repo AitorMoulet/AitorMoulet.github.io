@@ -61,3 +61,54 @@ li:hover{
 a:hover{
     color: white;
 }
+@media (max-width: 480px) {
+    
+    /* 1. Ajustamos el header y la navegación */
+    header h1 {
+        font-size: 1.5rem; /* Reducimos el tamaño del título */
+        text-align: center;
+    }
+
+    nav ol {
+        display: flex;
+        flex-direction: column; /* Menú en lista vertical para que no se amontone */
+        padding: 0;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+        list-style: none;
+    }
+
+    /* 2. Ajustamos los contenedores de los compañeros (Ismael, Jesus, Pablo) */
+    article {
+        display: flex;
+        flex-direction: column; /* Apilamos las tarjetas una debajo de otra */
+        align-items: center;
+    }
+
+    article div {
+        width: 90%; /* Que ocupen casi todo el ancho de la pantalla */
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* 3. Ajustamos las imágenes para que no se desborden */
+    article img {
+        width: 100%;      /* Imagen responsiva */
+        max-width: 300px; /* Evitamos que se vea demasiado grande */
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* 4. Tipografía más cómoda para leer en móvil */
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+}

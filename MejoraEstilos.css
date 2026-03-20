@@ -1,4 +1,46 @@
 
+@media screen and (max-width: 480px) {
+    
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+    .planes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 0 15px 0;
+        padding: 15px;
+        box-sizing: border-box; 
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        display: block;
+        text-align: center;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .breadcrumbs ul {
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+}
 * {
     box-sizing: border-box;
     margin: 0;

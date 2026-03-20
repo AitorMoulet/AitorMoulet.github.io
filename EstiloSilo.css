@@ -24,6 +24,31 @@ h1{
     background-color: black;
     margin: 0;
 }
+header ol {
+    padding: 0;
+    font-size: 0;
+}
+header ol li{
+  font-size: 16px;
+    display: inline-block;
+    width: 16.3%;
+    color: orange;
+    text-align: center;
+    padding: 10px 0;
+    border:2px solid orange ;
+    margin: auto;
+}
+header ol li:hover{
+  background-color: orange;
+    color: white;
+}
+header ol li a{
+  text-decoration: none;
+    color: orange;
+}
+header ol li a:hover{
+  color:white;
+}
 .ejercicios {
   max-width: 800px;
   margin: auto;
