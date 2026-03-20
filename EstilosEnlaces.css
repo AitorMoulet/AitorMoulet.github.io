@@ -63,15 +63,15 @@ a:hover{
 }
 @media (max-width: 480px) {
     
-    /* 1. Ajustamos el header y la navegación */
+    
     header h1 {
-        font-size: 1.5rem; /* Reducimos el tamaño del título */
+        font-size: 1.5rem; 
         text-align: center;
     }
 
     nav ol {
         display: flex;
-        flex-direction: column; /* Menú en lista vertical para que no se amontone */
+        flex-direction: column; 
         padding: 0;
         align-items: center;
     }
@@ -81,28 +81,28 @@ a:hover{
         list-style: none;
     }
 
-    /* 2. Ajustamos los contenedores de los compañeros (Ismael, Jesus, Pablo) */
+   
     article {
         display: flex;
-        flex-direction: column; /* Apilamos las tarjetas una debajo de otra */
+        flex-direction: column; 
         align-items: center;
     }
 
     article div {
-        width: 90%; /* Que ocupen casi todo el ancho de la pantalla */
+        width: 90%; 
         margin-bottom: 20px;
         text-align: center;
     }
 
-    /* 3. Ajustamos las imágenes para que no se desborden */
+    
     article img {
-        width: 100%;      /* Imagen responsiva */
-        max-width: 300px; /* Evitamos que se vea demasiado grande */
+        width: 100%;     
+        max-width: 300px; 
         height: auto;
         border-radius: 10px;
     }
 
-    /* 4. Tipografía más cómoda para leer en móvil */
+    /
     h2 {
         font-size: 1.2rem;
     }
