@@ -77,10 +77,10 @@ img{
 li>img{
     display: inline-block;
 }
-h3{
+h2{
     color: orange;
 }
-h3:hover{
+h2:hover{
     color: white;
 }
 footer{
